@@ -1,8 +1,15 @@
 import './style.css'
 import { setupCounter } from './counter.js'
 
+let cursor = document.getElementById("cursor");
+let output = document.getElementById("terminal-output");
+let command = document.getElementById("typer");
+let textarea = document.getElementById("texter");
+
+
 let commands = {"help": "", "about": "", "skills": "", "projects": "", "interests": "", "banner": ""}
 let commandsHistory = []
+
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -12,7 +19,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div id="command-line">
             <div id="path">visitor@brekkegreen-portfolio:~$</div>
-<textarea type="text" id="texter" autofocus=""></textarea> <div id="cursor">█</div>
+<textarea type="text" id="texter" autofocus=""></textarea><div id="cursor">█</div>
         </div>
         <button id="counter" type="button"></button>
     </div>
@@ -22,8 +29,8 @@ document.querySelector('#app').innerHTML = `
 document.getElementById("cursor").addEventListener("click", () => 
     document.getElementById("texter").focus())
 
-document.getElementById("texter").addEventListener(() => console.log("Worked"))
+document.getElementById("texter").addEventListener("click", () => console.log("Worked"))
 
-document.getElementById("texter").addEventListener(() => document.getElementById("terminal-output").innerHTML = commandsHistory)
+document.getElementById("texter").addEventListener("click", () => { document.getElementById("terminal-output").innerHTML = commandsHistory})
 
 setupCounter(document.querySelector('#counter'))
