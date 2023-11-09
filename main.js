@@ -29,8 +29,8 @@ document.querySelector('#app').innerHTML = `
 document.getElementById("cursor").addEventListener("click", () => 
     document.getElementById("texter").focus())
 
-document.getElementById("texter").addEventListener("click", () => console.log("Worked"))
+document.getElementById("texter").addEventListener("keypress", (e) => {if (e.key === "Enter") { document.getElementById("terminal-output").innerHTML = document.getElementById("texter").value} })
 
-document.getElementById("texter").addEventListener("click", () => { document.getElementById("terminal-output").innerHTML = commandsHistory})
+document.getElementById("texter").addEventListener("click", () => {})
 
 setupCounter(document.querySelector('#counter'))
