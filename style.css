@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -25,18 +26,21 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: black;
+  font-family: monospace;
+  background-color: #2E3440;
 }
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem;
+}
+
+p {
+    margin: 0;
+    white-space: nowrap;
 }
 
 button {
@@ -71,17 +75,20 @@ button:focus-visible {
   }
 }
 
-#path {
-    color: #00ff66;
-    background-color: black;
-}
 
 #command-line {
-    background-color: black;
+    color: #88C0D0;
+    background-color: #2E3440;
 }
 
 #terminal {
-    background-color: black;
+    color: #88C0D0;
+    background-color: #2E3440;
+}
+
+.path {
+    color: #8FBCBB;
+    background-color: #2E3440;
 }
 
 #cursor {

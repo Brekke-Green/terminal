@@ -9,6 +9,10 @@ let textarea = document.getElementById("texter");
 
 let commandsHistory = []
 
+window.onload = () => setTimeout(function() {
+    loopLines(commands.banner, "", 80);
+}, 100);
+
 document.querySelector('#app').innerHTML = `
   <div>
     <div id="terminal">
@@ -18,13 +22,15 @@ document.querySelector('#app').innerHTML = `
             </div>
         </div>
         <div id="command-line">
-            <div id="path">visitor@brekkegreen-portfolio:~$ </div>
+            <div class="path">visitor@brekkegreen-portfolio:~$ </div>
 <textarea type="text" id="texter" autofocus=""></textarea><span id="typer"></span><div id="cursor">█</div>
         </div>
         <button id="counter" type="button"></button>
     </div>
   </div>
 `
+
+document.getElementById("texter").focus()
 
 document.getElementById("cursor").addEventListener("click", () => 
     document.getElementById("texter").focus())
@@ -37,7 +43,7 @@ function enterPress(e) {
     if (e.key === "Enter") {
         commandsHistory.push(document.getElementById("typer").innerHTML)
         // Print the line to terminal
-        addLine("visitor@brekkegreen-portfolio:~$" + document.getElementById("typer").innerHTML, "no-animation", 0);
+        addLine("visitor@brekkegreen-portfolio:~$ " + document.getElementById("typer").innerHTML, "path", 0);
         // run the command
         runCommand(document.getElementById("typer").innerHTML.toLowerCase());
         // reset parameters
@@ -53,6 +59,9 @@ function runCommand(cmd) {
         case "help":
             loopLines(commands.help, "", 80);
             break;
+        case "banner":
+            loopLines(commands.banner, "", 80);
+            break;
         default:
             addLine("<span class=\"inherit\">zsh: command not found: " + cmd + " Type <span class=\"command\">'help'</span> to list available commands.</span>", "error", 100)
     }
@@ -61,9 +70,10 @@ function runCommand(cmd) {
 function addLine(text, style, time) {
     let t = "";
     for (let i = 0; i < text.length; i++) {
-        if (text.charAt(i) == " " && text.charAt(i+1) == " ") {
-            t += "&nbsp;&nbsp;"
-            i++
+        // if (text.charAt(i) == " " && text.charAt(i+1) == " ") {
+        if (text.charAt(i) == " ") {
+            t += "&nbsp;"
+            // i++
         } else {
             t += text.charAt(i)
 
