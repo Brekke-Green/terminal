@@ -43,6 +43,14 @@ p {
     white-space: nowrap;
 }
 
+.spaceman {
+    text-shadow: 0 0 5px #73ABAD;
+}
+
+.command {
+    text-shadow: 0 0 5px #73ABAD;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -87,12 +95,27 @@ button:focus-visible {
 }
 
 .path {
+    display: inline-block;
     color: #8FBCBB;
     background-color: #2E3440;
+} 
+
+.info {
+    color: #BF616A;
+} 
+
+.link {
+    color: #5E81AC;
 }
 
 #cursor {
+    display: inline-block;
     animation: blinker 1s linear infinite;
+}
+
+#texter {
+    left: -1000px;
+    position: absolute;
 }
 
 @keyframes blinker {
