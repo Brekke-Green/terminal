@@ -1,5 +1,5 @@
 import './style.css'
-import { commands } from './commands.js'
+import { commands, editors } from './commands.js'
 
 let commandsHistory = ["<br>",]
 
@@ -77,6 +77,9 @@ function runCommand(cmd) {
             break;
         case "skills":
             loopLines(commands.skills, "", 80);
+            break;
+        case "editors":
+            loopLines(editors, "", 80);
             break;
         case "vi .":
             addLine('<iframe src="https://giphy.com/embed/N1b2aqEIPAFnnRLJvX" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);

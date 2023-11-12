@@ -91,3 +91,11 @@ export const commands = {
         "<br>",
     ],
 }
+
+export const editors = [
+    "vi .",
+    "vim .",
+    "nvim .",
+    "emacs",
+    "code .",
+]
