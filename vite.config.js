@@ -1,3 +1,4 @@
 export default ({
-    base:   '/terminal/'
+    base:   '/terminal/',
+    assetsInclude: ['**/*.pdf'],
 })
