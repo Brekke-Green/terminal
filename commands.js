@@ -87,7 +87,7 @@ export const commands = {
     ],
     "resume": [
         "<br>",
-        '<a href="docs/BrekkeAndrewGreenResume.pdf" target="_blank" rel="noopener noreferrer" class="link">Check out my resume here!</a>',
+        '<a href="BrekkeAndrewGreenResume.pdf" target="_blank" rel="noopener noreferrer" class="link">Check out my resume here!</a>',
         "<br>",
     ],
 }
