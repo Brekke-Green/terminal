@@ -88,7 +88,7 @@ function runCommand(cmd) {
             addLine('<iframe src="https://giphy.com/embed/TJPQBOfPGpgmQ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);
             break;
         case "nvim .":
-            addLine('<iframe src="https://giphy.com/embed/OXIi87VLaIzGE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);
+            addLine('<iframe src="https://giphy.com/embed/iOz3p2txHIo4U" width="480" height="273" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);
             break;
         case "emacs":
             addLine('<iframe src="https://giphy.com/embed/HteV6g0QTNxp6" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);

@@ -1,7 +1,22 @@
 export const commands = {
     "about": [
         "<br>",
-        '<iframe src="https://giphy.com/embed/iofbYa67AbBg4" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+        "Hey, I’m Brekke 👨🏻‍💻",
+        "<br>",
+        "I’m a software engineer, a problem solver and an all around team player.", 
+        "I typed my first “Hello, World!” in BASIC way back in 2007 and have been writing", 
+        "and debugging code ever since! But before embarking on my coding journey,",
+        "I studied kinesiology and biomechanics. I spent a few years building exoskeletons and", 
+        "conducting crucial injury prevention research with the U.S. Army as a research engineer.",
+        "<br>",
+        "Fast forward to the present, and I've worked at an AI tech startup where I honed", 
+        "my backend engineering skills and fed millions of data points into the AI engines.", 
+        "Along the way, I've mastered a new programming language (Go) and crafted custom CLI", 
+        "applications to streamline workflows. I've also dabbled in a little <a href=\"https://www.instagram.com/p/CvGGUlOuaYC/?utm_source=ig_web_copy_link\" target=\"_blank\" class=\"link\">community service</a>...", 
+        "(hint: you can spot me in the black hat and green shirt 👀)",
+        "<br>",
+        "Now, I'm on the lookout for new job opportunities and if you happen to have any", 
+        "on the horizon, I'm all ears! 🚀 Let's connect.",
         "<br>",
     ],
     "help": [
@@ -45,7 +60,7 @@ export const commands = {
         "<span class=\"spaceman\">          `-._/._/</span>",
         "<span></span>",
         "<span class=\"message\">Welcome to my interactive terminal! Built with my favorite <a href=\"https://www.nordtheme.com/\" target=\"_blank\" class=\"link\">nord</a> stylings and some fun easter eggs for you to enjoy. Thanks for stopping by 😎</span>",
-        "<span class=\"info\">Click the cursor and type <span class=\"command\">'help'</span> to see list of commands!</span>",
+        "<span class=\"info\">Click the cursor and type <span class=\"command\">'help'</span> to see list of commands and learn a little more about me!</span>",
         "<br>",
     ],
     "contact": [
