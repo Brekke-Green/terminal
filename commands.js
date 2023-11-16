@@ -125,7 +125,7 @@ export const commands = {
     ],
     "hint": [
         "<br>",
-        "Try openning your favorite text <span class=\"command\">'editors'</span>... 🤫",
+        "Try opening your favorite text <span class=\"command\">'editors'</span>... 🤫",
         "<br>",
     ],
 }
