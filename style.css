@@ -27,6 +27,7 @@ a:hover {
 body {
   margin: 0;
   min-width: 320px;
+  width: fit-content;
   min-height: 100vh;
   font-family: monospace;
   background-color: #2E3440;
