@@ -26,7 +26,7 @@ document.querySelector('#app').innerHTML = `
 
 document.getElementById("texter").focus()
 
-document.getElementById("cursor").addEventListener("click", () => 
+document.addEventListener("click", () => 
     document.getElementById("texter").focus())
 
 document.getElementById("texter").addEventListener("keypress", enterPress)
