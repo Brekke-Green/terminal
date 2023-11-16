@@ -78,7 +78,8 @@ export const commands = {
     ],
     "skills": [
         "<br>",
-        "Always growing list of technologies I work with!",
+        "A current list of technologies I work with.",
+        "I'm always working to update and diversify this list!",
         "<br>",
         'Python',
         'Javascript',
