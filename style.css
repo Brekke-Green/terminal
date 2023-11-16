@@ -29,6 +29,7 @@ body {
   min-width: fit-content;
   width: 100%;
   min-height: 100vh;
+  height: 100%;
   font-family: monospace;
   background-color: #2E3440;
 }
@@ -78,7 +79,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #2E3440;
   }
   a:hover {
     color: #747bff;
