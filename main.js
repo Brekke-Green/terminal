@@ -96,6 +96,9 @@ function runCommand(cmd) {
         case "code .":
             addLine('<iframe src="https://giphy.com/embed/VpVtXxTR5Ub2E" width="480" height="247" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);
             break;
+        case "jupyter notebook":
+            addLine('<iframe src="https://giphy.com/embed/xebWxDYPnWVPtFhOTM" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>', "", 80);
+            break;
         case "hint":
             loopLines(commands.hint, "", 80);
             break;

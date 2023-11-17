@@ -134,6 +134,7 @@ export const editors = [
     "<br>",
     "emacs",
     "code .",
+    "jupyter notebook",
     "vi .",
     "vim .",
     "nvim .",
