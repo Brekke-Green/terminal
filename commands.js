@@ -120,7 +120,7 @@ export const commands = {
     ],
     "resume": [
         "<br>",
-        '<a href="https://brekke-green.github.io/BrekkeAndrewGreenResume.pdf" target="_blank" class="link">Check out my resume here!</a>',
+        '<a href=""https://brekke-green.github.io/BrekkeGreen_Resume_2024.pdf target="_blank" class="link">Check out my resume here!</a>',
         "<br>",
     ],
     "hint": [
