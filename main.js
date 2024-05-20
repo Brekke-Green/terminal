@@ -57,6 +57,9 @@ function runCommand(cmd) {
         case "about":
             loopLines(commands.about, "", 80);
             break;
+        case "active":
+            loopLines(commands.active, "", 80);
+            break;
         case "help":
             loopLines(commands.help, "", 80);
             break;
