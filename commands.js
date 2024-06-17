@@ -139,7 +139,7 @@ export const commands = {
     ],
     "resume": [
         "<br>",
-        '<a href="./BrekkeGreen_Resume_2024.pdf" target="_blank" class="link">Check out my resume here!</a>',
+        '<a href="./Brekke_Green_Resume_2024.pdf" target="_blank" class="link">Check out my resume here!</a>',
         "<br>",
     ],
     "hint": [
