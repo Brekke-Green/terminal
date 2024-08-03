@@ -81,6 +81,9 @@ function runCommand(cmd) {
         case "skills":
             loopLines(commands.skills, "", 80);
             break;
+        case "hobbies":
+            loopLines(commands.hobbies, "", 80);
+            break;
         case "editors":
             loopLines(editors, "", 80);
             break;
