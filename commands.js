@@ -137,7 +137,7 @@ export const commands = {
         "<br>",
         "Try them out!",
         "<br>",
-        '<a href="https://disarray-app.herokuapp.com/#/" target="_blank" class="link">Disarray</a>',
+        '<a href="https://github.com/aweil13/Disarray" target="_blank" class="link">Disarray</a>',
         "Multiplayer online Boggle Game built with a retro styling. Developed using Socket.IO to connect various players to a game server.",
         "<br>",
         "Technology used: MongoDB, Express.js, React,",
