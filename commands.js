@@ -9,7 +9,7 @@ export const commands = {
         "I studied kinesiology and biomechanics. I spent a few years building exoskeletons and", 
         "conducting crucial injury prevention research with the U.S. Army as a research engineer.",
         "<br>",
-        "Fast forward to the present, where I'm currently working as a contracted fullstack engineer",
+        "Fast forward to the present, where I'm currently working as a contracted full-stack engineer",
         "with Bank of America building a realtime trading market analysis/visualization platform.",
         "In my spare time, I've experimented with a few programming languages (Go/C) and crafted custom CLI", 
         "applications to streamline workflows. I've also dabbled in a little <a href=\"https://www.instagram.com/p/CvGGUlOuaYC/?utm_source=ig_web_copy_link\" target=\"_blank\" class=\"link\">community service</a>...", 
