@@ -26,7 +26,7 @@ document.querySelector('#app').innerHTML = `
 
 document.getElementById("texter").focus()
 
-document.addEventListener("click", () => 
+document.addEventListener("click", () =>
     document.getElementById("texter").focus())
 
 document.getElementById("texter").addEventListener("keypress", enterPress)
@@ -56,9 +56,6 @@ function runCommand(cmd) {
     switch (cmd) {
         case "about":
             loopLines(commands.about, "", 80);
-            break;
-        case "active":
-            loopLines(commands.active, "", 80);
             break;
         case "help":
             loopLines(commands.help, "", 80);
@@ -130,14 +127,14 @@ function addLine(text, style, time) {
     for (let i = 0; i < text.length; i++) {
         // if (text.charAt(i) == " " && text.charAt(i+1) == " ") {
         if (text.charAt(i) == "Ø") {
-            ignoreFlag = true 
+            ignoreFlag = true
         }
         if (!ignoreFlag) {
             if (text.charAt(i) == "<") {
                 tagFlag = true
             }
             if (text.charAt(i) == ">") {
-                tagFlag = false 
+                tagFlag = false
             }
         }
         if (text.charAt(i) == " " && !tagFlag) {
@@ -150,7 +147,7 @@ function addLine(text, style, time) {
         }
     }
     ignoreFlag = false
-    setTimeout(function () {
+    setTimeout(function() {
         var next = document.createElement("p");
         next.innerHTML = t;
         next.className = style;
@@ -160,7 +157,7 @@ function addLine(text, style, time) {
 }
 
 function loopLines(name, style, time) {
-    name.forEach(function (item, index) {
+    name.forEach(function(item, index) {
         addLine(item, style, index * time);
     })
 }
