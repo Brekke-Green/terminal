@@ -16,8 +16,7 @@ document.querySelector('#app').innerHTML = `
             </div>
         </div>
         <div id="command-line">
-            <textarea type="text" id="texter" autofocus=""></textarea>
-            <div class="path">visitor@brekkegreen-portfolio:~$ </div>
+            <label>visitor@brekkegreen-portfolio:~$ <textarea type="text" id="texter" autofocus=""></textarea></label>
             <span id="typer"></span><div id="cursor">█</div>
         </div>
     </div>

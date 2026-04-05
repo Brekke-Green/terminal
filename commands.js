@@ -60,7 +60,7 @@ export const commands = {
         "<span class=\"spaceman\">         \\   `\\  \\</span>",
         "<span class=\"spaceman\">          `-._/._/</span>",
         "<span></span>",
-        "<span class=\"message\">Welcome to my interactive terminal! Built with my favorite <a href=\"https://www.nordtheme.com/\" target=\"_blank\" class=\"link\">nord</a> stylings and some fun easter eggs for you to enjoy. Thanks for stopping by 😎</span>",
+        "<span class=\"message\">Welcome to my interactive terminal! Built with my favorite <a href=\"https://en.wikipedia.org/wiki/IBM_5151\" target=\"_blank\" class=\"link\">IBM 5151</a> stylings and some fun easter eggs for you to enjoy. Thanks for stopping by 😎</span>",
         "<span class=\"info\">Click the cursor and type <span class=\"command\">'help'</span> to see list of commands and learn a little more about me!</span>",
         "<br>",
     ],
